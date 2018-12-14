@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+/*
+External Style Sheet(.css)
+
+With an external style sheet, you can change the look of an entire website by changing just one file!
+Each page must include a reference to the external style sheet file inside the <link> element.
+The <link> element goes inside the <head> section:
+
+주의) 디자인 템플릿 사용시 스타일 파일 별도 제공.
+주의) 여러개의 웹페이지에 공통(기본) 스타일 적용시 많이 사용된다.
+*/
+
+
+body {
+    background-color: lightblue;
+    color : white;
+}
+
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
